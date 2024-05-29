@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body class="vh-100 d-flex justify-content-center align-items-center bg-black text-light">
+    <div class="w-auto h-75 border border-4 border-success rounded-4 p-4 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <div>
+                <label class="form-label fs-4">Enter Number: </label>
+                <input id="inputA" class="form-control" type="text">
+            </div>
+            <div>
+                <label class="form-label fs-4">Enetr Number: </label>
+                <input id="inputB" class="form-control" type="text">
+            </div>
+            <br>
+            <div>
+                <button class="btn btn-outline-success" onclick="addition()">add</button>
+                <button class="btn btn-outline-success" onclick="subtraction()">sub</button>
+                <button class="btn btn-outline-success" onclick="multiplication()">mul</button>
+                <button class="btn btn-outline-success" onclick="division()">div</button>
+            </div>
+            <div>
+                <span id="result">Result</span>
+                <br>
+                <span id="num" class="w-50 fs-3 border border-2 border-success rounded-3 text-bg-primary">result</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
